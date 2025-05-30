@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2025-06-01",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "zoom": 13,
+    "answer": "Paris",
+    "region": "Europe"
+  },
+  {
+    "date": "2025-06-02",
+    "lat": 40.7128,
+    "lon": -74.0060,
+    "zoom": 12,
+    "answer": "New York",
+    "region": "North America"
+  },
+  {
+    "date": "2025-06-03",
+    "lat": 35.6895,
+    "lon": 139.6917,
+    "zoom": 13,
+    "answer": "Tokyo",
+    "region": "Asia"
+  }
+]

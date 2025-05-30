@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StreetSmarts - Daily City Challenge</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/favicon.ico" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+</head>
+<body>
+  <div id="app">
+    <h1>🧠 StreetSmarts</h1>
+    <p>Can you guess today's mystery city based only on its roads?</p>
+    <div id="map"></div>
+    <form id="guessForm">
+      <input type="text" id="guessInput" placeholder="Enter city name" autocomplete="off" />
+      <button type="submit">Guess</button>
+      <div id="guessCounter">Guess: 0 / 5</div>
+      <div id="hints"></div>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
